@@ -1,8 +1,8 @@
 m = int(input())
-cnt = 0
 
 for i in range(m):
     num = int(input())
+    cnt = 0
     while(num != 1):
         if num % 2 == 0:
             num /= 2
