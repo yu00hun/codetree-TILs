@@ -1,5 +1,6 @@
 inp = input().split()
 start, end = int(inp[0]), int(inp[1])
+# start, end = tuple(map(int, input().split()))
 cnt = 0
 
 for i in range(start, end+1):
