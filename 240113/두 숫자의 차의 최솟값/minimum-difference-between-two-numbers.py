@@ -1,18 +1,11 @@
 n = int(input())
 arr = list(map(int, input().split()))
-ans = 0
-min_ans = 100
 
-for i in range(n):
-    for j in range(n):
-        if i != j:
-            if arr[i] > arr[j]:
-                ans = arr[i] - arr[j]
-                if ans < min_ans:
-                    min_ans = ans
-            else:
-                ans = arr[j] - arr[i]
-                if ans < min_ans:
-                    min_ans = ans
+min_val = arr[1] - arr[0]
 
-print(min_ans)
+for i in range(2, n):
+    if min_val > arr[i] - arr[i-1]:
+        min_val = arr[i] - arr[i-1]
+
+
+print(min_val)
