@@ -14,3 +14,4 @@ for i in range(q):
     elif q_arr[0] == 3:
         for i in range(q_arr[1], q_arr[2]+1):
             print(n_arr[i-1], end=" ")
+        print()
