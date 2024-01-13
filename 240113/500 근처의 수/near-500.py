@@ -1,6 +1,6 @@
 arr = list(map(int, input().split()))
-max_val = min(arr)
-min_val = max(arr)
+max_val = 1
+min_val = 1000
 
 for elem in arr:
     if elem < 500 and elem > max_val:
