@@ -5,7 +5,7 @@ arr = [
     for _ in range(n)
 ]
 
-for i in range(3):
+for i in range(m):
         r, c = tuple(map(int, input().split()))
         arr[r-1][c-1] = i+1
 
