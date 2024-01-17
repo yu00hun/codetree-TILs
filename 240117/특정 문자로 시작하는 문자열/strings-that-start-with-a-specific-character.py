@@ -7,7 +7,7 @@ word = input()
 cnt = 0
 total_len = 0
 
-for i in range(4):
+for i in range(n):
     if arr[i][0] == word:
         cnt += 1
         total_len += len(arr[i])
