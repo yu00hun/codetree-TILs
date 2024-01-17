@@ -1,8 +1,8 @@
 n, m = tuple(map(int, input().split()))
 
 arr = [
-    [0 for _ in range(2)]
-    for _ in range(2)
+    [0 for _ in range(n)]
+    for _ in range(n)
 ]
 
 for i in range(m):
