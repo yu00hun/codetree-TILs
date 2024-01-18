@@ -1,7 +1,5 @@
 string = input()
 n = int(input())
 
-length = len(string)
-
-for i in range(n):
-    print(string[length-i-1], end="")
+for elem in string[-1:-n-1:-1]:
+    print(elem, end="")
