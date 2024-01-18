@@ -3,5 +3,5 @@ n = int(input())
 
 length = len(string)
 
-for i in range(length-1, length - n - 1, -1):
-    print(string[i], end="")
+for i in range(11):
+    print(string[length-i-1], end="")
