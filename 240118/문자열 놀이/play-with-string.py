@@ -8,10 +8,9 @@ for i in range(q):
 
     if n == 1:
         a, b = int(a), int(b)
-        for j in range(len(s)):
-            tmp = arr[a-1]
-            arr[a-1] = arr[b-1]
-            arr[b-1] = tmp
+        tmp = arr[a-1]
+        arr[a-1] = arr[b-1]
+        arr[b-1] = tmp
 
     elif n == 2:
         for j in range(len(s)):
