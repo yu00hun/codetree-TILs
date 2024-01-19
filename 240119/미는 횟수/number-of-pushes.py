@@ -1,9 +1,9 @@
 A = input()
 B = input()
 len_A = len(A)
-cnt = 0
+cnt = -1
 
-for i in range(len_A):
+for _ in range(len_A):
     A = A[-1] + A[:-1]
     cnt += 1
     if A == B:
@@ -12,4 +12,4 @@ for i in range(len_A):
 if cnt == 0:
     print(-1)
 else:
-    print(cnt)
+    print(cnt+1)
