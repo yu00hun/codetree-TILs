@@ -12,4 +12,4 @@ for _ in range(len_A):
 if cnt == len_A:
     print(-1)
 else:
-    print(cnt+1)
+    print(cnt)
