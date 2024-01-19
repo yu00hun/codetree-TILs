@@ -1,11 +1,11 @@
 string = input()
 arr = list(string)
-leng = len(string)
+leng = len(arr)
 
 for _ in range(leng):
     n = int(input())
     
-    if n > len(arr):
+    if n > len(arr) - 1:
         arr.pop(-1)
     else:
         arr.pop(n)
