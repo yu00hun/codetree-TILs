@@ -1,4 +1,7 @@
 char = input()
-answer = ord(char)+1
+if char == 'z':
+    answer = ord('a')
+else:
+    answer = ord(char)+1
 
 print(chr(answer))
