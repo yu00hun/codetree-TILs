@@ -1,5 +1,5 @@
-arr = list(input().split('.'))
+string = input()
 
-for elem in arr:
+for elem in string:
     if elem.isalpha():
         print(elem.upper(), end="")
