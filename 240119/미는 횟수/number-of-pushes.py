@@ -1,7 +1,7 @@
 A = input()
 B = input()
 len_A = len(A)
-cnt = -1
+cnt = 0
 
 for _ in range(len_A):
     if A == B:
