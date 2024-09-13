@@ -1,5 +1,11 @@
 a, b = map(int, input().split())
 
-ans = a ** b
+# ans = a ** b
+def power(a, b):
+    res = 1
+    for _ in range(b):
+        res *= a
 
-print(ans)
+    return res
+
+print(power(a, b))
