@@ -18,7 +18,7 @@ def div(a, c):
     return a // c
 
 if o == '+':
-    print(a, o, c, '=', a, o, c, '=', plus(a, c))
+    print(a, o, c, '=', plus(a, c))
 elif o == '-':
     print(a, o, c, '=', minus(a, c))
 elif o == '*':
